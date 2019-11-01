@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "2d9ddcaa-8009-44f4-8715-73236b4297c5",
+		"name": "M_Cleveland_FabioMurilo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Medicos",
+			"item": [
+				{
+					"name": "Medicos.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.6.220:5000/Api/Medicos",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"6",
+								"220"
+							],
+							"port": "5000",
+							"path": [
+								"Api",
+								"Medicos"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
